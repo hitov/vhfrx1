@@ -80,7 +80,8 @@ install:  $(PRG).hex
 
 fuse:
 	avrdude -p $(AVRDUDE_TARGET) -c $(PROGRAMMER) -P $(PORT) -v \
-	-U lfuse:w:0xc6:m -U hfuse:w:0xd9:m 	
+	-U lfuse:w:0x1c:m -U hfuse:w:0xd9:m
+
 
 ddd: gdbinit
 	ddd --debugger "avr-gdb -x $(GDBINITFILE)"
