@@ -1,6 +1,6 @@
 
 PRG            = vhf-radio
-OBJ            = vhf-radio.o
+OBJ            = vhf-radio.o lm7001.o pll.o
 PROGRAMMER     = usbasp
 PORT           = usb
 MCU_TARGET     = atmega8 
