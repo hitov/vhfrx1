@@ -1,12 +1,9 @@
 #include <stdio.h>
-#include <avr/io.h>
-#include <util/delay.h>
+#include "board.h"
 #include "lm7001.h"
 
 void lm7001_init(lm7001_data_t *plldev, uint16_t divider, uint8_t band, uint8_t fref, uint8_t intype)
 {
-    //plldev->data = (0x3FFF & divider) | ((band & 0x0F) << 16) | ((fref & 0x07) << 20) | ((intype & 1) << 23);
-
     LM7001_PLL_ENABLE_OUTPUT();
     LM7001_PLL_CLOCK_OUTPUT();
     LM7001_PLL_DATA_OUTPUT();
@@ -29,30 +26,31 @@ void lm7001_wrire(lm7001_data_t *plldev)
 
     LM7001_PLL_ENABLE_UP();
 
-    //_delay_us(200);
-
+    dbg_printf("LM7001 Data: ");
     for(bit = 0; bit < LM7001_PLL_DATA_BITS; bit++)
     {
         if(data & 1)
         {
             LM7001_PLL_DATA_UP();
+            dbg_printf("1");
         }
         else
         {
             LM7001_PLL_DATA_DOWN();
+            dbg_printf("0");
         }
 
-        _delay_us(200);
+        delay_us(200);
 
         LM7001_PLL_CLOCK_UP();
 
-        _delay_us(200);
+        delay_us(200);
 
         LM7001_PLL_CLOCK_DOWN();
 
         data >>= 1;
     }
-
+    dbg_printf("\n");
     LM7001_PLL_ENABLE_DOWN();
-    _delay_us(200);
+    delay_us(200);
 }
