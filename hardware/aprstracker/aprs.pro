@@ -1,11 +1,6 @@
-update=Wed 29 May 2013 09:45:38 PM EEST
+update=Fri 31 May 2013 11:24:02 PM EEST
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -28,7 +23,6 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -37,14 +31,16 @@ LibName5=divers
 LibName6=smd_capacitors
 LibName7=smd_resistors
 LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
+LibName9=smd_transistors
+LibName10=libcms
+LibName11=display
+LibName12=led
+LibName13=dip_sockets
+LibName14=pga_sockets
+LibName15=valves
+LibName16=smd_soic_packages
+LibName17=smd_ssop_packages
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -87,3 +83,8 @@ LibName30=valves
 LibName31=LM7001
 LibName32=EB-3531
 LibName33=sma_connectors/library/sma
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
