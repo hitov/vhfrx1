@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 29 May 2013 10:03:19 PM EEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 03 Jun 2013 09:35:35 PM EEST
 
 BeginCmp
 TimeStamp = /51A0D654;
@@ -193,7 +193,7 @@ BeginCmp
 TimeStamp = /51A3AB8E;
 Reference = C27;
 ValeurCmp = CTRIM;
-IdModule  = SM1206;
+IdModule  = TSC6;
 EndCmp
 
 BeginCmp
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /51A3A6E9;
 Reference = C35;
 ValeurCmp = CTRIM;
-IdModule  = SM1206;
+IdModule  = TSC6;
 EndCmp
 
 BeginCmp
@@ -414,6 +414,20 @@ IdModule  = TQFP32;
 EndCmp
 
 BeginCmp
+TimeStamp = /51A65194;
+Reference = J1;
+ValeurCmp = SMA;
+IdModule  = SMA;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A65C99;
+Reference = J2;
+ValeurCmp = SMA;
+IdModule  = SMA;
+EndCmp
+
+BeginCmp
 TimeStamp = /51A0AE1D;
 Reference = L1;
 ValeurCmp = INDUCTOR;
@@ -533,24 +547,10 @@ IdModule  = SIL-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /51A0CF7F;
-Reference = P2;
-ValeurCmp = BNC;
-IdModule  = bnc-ci;
-EndCmp
-
-BeginCmp
 TimeStamp = /51A20CAC;
 Reference = P3;
 ValeurCmp = CONN_2;
 IdModule  = bornier2;
-EndCmp
-
-BeginCmp
-TimeStamp = /51A3A5E9;
-Reference = P4;
-ValeurCmp = BNC;
-IdModule  = bnc-ci;
 EndCmp
 
 BeginCmp
@@ -802,7 +802,7 @@ BeginCmp
 TimeStamp = /519FFF58;
 Reference = RV1;
 ValeurCmp = POT;
-IdModule  = ;
+IdModule  = MVR34;
 EndCmp
 
 BeginCmp
@@ -816,18 +816,18 @@ BeginCmp
 TimeStamp = /51A0C199;
 Reference = U2;
 ValeurCmp = EB-3531;
-IdModule  = DIP-22__300_ELL;
+IdModule  = EB-3531;
 EndCmp
 
 BeginCmp
-TimeStamp = /51A21285;
+TimeStamp = /51AB8477;
 Reference = U3;
 ValeurCmp = 78L33;
 IdModule  = sot89;
 EndCmp
 
 BeginCmp
-TimeStamp = /51A2033B;
+TimeStamp = /51AB80B0;
 Reference = U4;
 ValeurCmp = 78L05;
 IdModule  = sot89;

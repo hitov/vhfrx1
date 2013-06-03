@@ -1,16 +1,16 @@
-update=Fri 31 May 2013 11:24:02 PM EEST
+update=Mon 03 Jun 2013 09:35:27 PM EEST
 version=1
 last_client=cvpcb
 [general]
 version=1
 [pcbnew]
 version=1
-LastNetListRead=sch/aprs.net
+LastNetListRead=aprs.net
 UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    0.700000"
+PadSizeV="    0.920000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -40,6 +40,10 @@ LibName14=pga_sockets
 LibName15=valves
 LibName16=smd_soic_packages
 LibName17=smd_ssop_packages
+LibName18=EB-3531
+LibName19=sma_connectors/modules/sma
+LibName20=TSC6
+LibName21=MVR34
 LibDir=
 [eeschema]
 version=1
@@ -83,6 +87,8 @@ LibName30=valves
 LibName31=LM7001
 LibName32=EB-3531
 LibName33=sma_connectors/library/sma
+LibName34=libs/78LXX_SMD
+LibName35=aprs
 [cvpcb]
 version=1
 NetIExt=net
