@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 04 Jun 2013 11:03:35 PM EEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 03 Jun 2013 10:26:11 PM EEST
 
 BeginCmp
 TimeStamp = /51A0D654;
@@ -291,7 +291,7 @@ BeginCmp
 TimeStamp = /51A20CD9;
 Reference = C41;
 ValeurCmp = CAPAPOL;
-IdModule  = c_elec_6.3x4.5;
+IdModule  = c_elec_10x10;
 EndCmp
 
 BeginCmp
@@ -372,9 +372,9 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AD137F;
+TimeStamp = /519FD802;
 Reference = D1;
-ValeurCmp = ZC931;
+ValeurCmp = VARICAP;
 IdModule  = SOT23;
 EndCmp
 
@@ -403,21 +403,7 @@ BeginCmp
 TimeStamp = /51A0E444;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /519FD802;
-Reference = D6;
-ValeurCmp = VARICAP;
-IdModule  = MiniMelf;
-EndCmp
-
-BeginCmp
-TimeStamp = /51AE455D;
-Reference = D7;
-ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -554,13 +540,6 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AE52B1;
-Reference = L17;
-ValeurCmp = INDUCTOR;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /51A09A54;
 Reference = P1;
 ValeurCmp = CONN_6;
@@ -575,51 +554,51 @@ IdModule  = PINHEAD1-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AD1854;
+TimeStamp = /519FDB7A;
 Reference = Q1;
-ValeurCmp = MMBT5551;
+ValeurCmp = NPN;
 IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AE3CFB;
+TimeStamp = /51A3DA96;
 Reference = Q2;
-ValeurCmp = MMBT5551;
+ValeurCmp = NPN;
 IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AE3A5F;
+TimeStamp = /519FFC15;
 Reference = Q3;
-ValeurCmp = BCX54;
+ValeurCmp = BCX56;
 IdModule  = sot89;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AD01F1;
+TimeStamp = /519FACD7;
 Reference = Q4;
 ValeurCmp = BFR93A;
 IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AD01CC;
+TimeStamp = /519FF51E;
 Reference = Q5;
 ValeurCmp = BFR93A;
 IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /51ACF8AC;
+TimeStamp = /51A3A20A;
 Reference = Q6;
 ValeurCmp = BFG135;
 IdModule  = SOT223;
 EndCmp
 
 BeginCmp
-TimeStamp = /51AE2F85;
+TimeStamp = /51A0E2B5;
 Reference = Q7;
-ValeurCmp = MMBT5551;
+ValeurCmp = NPN;
 IdModule  = SOT23;
 EndCmp
 
@@ -815,13 +794,6 @@ EndCmp
 BeginCmp
 TimeStamp = /51A0E453;
 Reference = R28;
-ValeurCmp = R;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51AE475B;
-Reference = R29;
 ValeurCmp = R;
 IdModule  = SM0805;
 EndCmp
