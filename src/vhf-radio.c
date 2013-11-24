@@ -27,7 +27,7 @@ int main(void)
     delay_ms(100);
     delay_ms(100);
 
-    pll_set_freq(&pll, 144800000); //Set frequency in kHz
+    pll_set_freq(&pll, 144725000 - 100000); //Set frequency in kHz
 
     for(;;)
     {

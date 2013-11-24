@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 04 Jun 2013 11:03:35 PM EEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 05 Jun 2013 11:47:16 PM EEST
 
 BeginCmp
 TimeStamp = /51A0D654;
@@ -141,13 +141,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51A0D4F0;
-Reference = C20;
-ValeurCmp = C;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /51A3CF0F;
 Reference = C21;
 ValeurCmp = CAPAPOL;
@@ -253,13 +246,6 @@ IdModule  = TSC6;
 EndCmp
 
 BeginCmp
-TimeStamp = /51A212C1;
-Reference = C36;
-ValeurCmp = CAPAPOL;
-IdModule  = c_elec_6.3x4.5;
-EndCmp
-
-BeginCmp
 TimeStamp = /51A3A3F2;
 Reference = C37;
 ValeurCmp = C;
@@ -316,38 +302,10 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51A21E6F;
-Reference = C45;
-ValeurCmp = CAPAPOL;
-IdModule  = c_elec_6.3x4.5;
-EndCmp
-
-BeginCmp
 TimeStamp = /51A20CE8;
 Reference = C46;
 ValeurCmp = C;
 IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51A20D06;
-Reference = C47;
-ValeurCmp = CAPAPOL;
-IdModule  = c_elec_6.3x4.5;
-EndCmp
-
-BeginCmp
-TimeStamp = /51A22311;
-Reference = C48;
-ValeurCmp = C;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51A22320;
-Reference = C49;
-ValeurCmp = CAPAPOL;
-IdModule  = c_elec_6.3x4.5;
 EndCmp
 
 BeginCmp
@@ -416,6 +374,13 @@ EndCmp
 BeginCmp
 TimeStamp = /51AE455D;
 Reference = D7;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AFA454;
+Reference = D8;
 ValeurCmp = LED;
 IdModule  = LED-0805;
 EndCmp
@@ -822,6 +787,13 @@ EndCmp
 BeginCmp
 TimeStamp = /51AE475B;
 Reference = R29;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AFA463;
+Reference = R30;
 ValeurCmp = R;
 IdModule  = SM0805;
 EndCmp
