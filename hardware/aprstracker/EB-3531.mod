@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  Sun 02 Jun 2013 01:05:42 PM EEST
+PCBNEW-LibModule-V1  Thu 28 Nov 2013 09:55:57 PM EET
 # encoding utf-8
 Units mm
 $INDEX
 EB-3531
 $EndINDEX
 $MODULE EB-3531
-Po 0 0 0 15 51AB189A 00000000 ~~
+Po 0 0 0 15 52966BAB 00000000 ~~
 Li EB-3531
 Sc 0
 AR 
@@ -54,119 +54,119 @@ Ne 0 ""
 Po -1.42 6.51
 $EndPAD
 $PAD
-Sh "6" R 0.7 0.92 0 0 0
+Sh "21" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.15 6.51
 $EndPAD
 $PAD
-Sh "7" R 0.7 0.92 0 0 0
+Sh "6" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.12 6.51
 $EndPAD
 $PAD
-Sh "8" R 0.7 0.92 0 0 0
+Sh "7" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.39 6.51
 $EndPAD
 $PAD
-Sh "9" R 0.7 0.92 0 0 0
+Sh "8" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.66 6.51
 $EndPAD
 $PAD
-Sh "10" R 0.7 0.92 0 0 0
+Sh "9" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 4.93 6.51
 $EndPAD
 $PAD
-Sh "11" R 0.7 0.92 0 0 0
+Sh "10" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 6.2 6.51
 $EndPAD
 $PAD
-Sh "22" R 0.7 0.92 0 0 0
+Sh "20" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -6.5 -6.5
 $EndPAD
 $PAD
-Sh "21" R 0.7 0.92 0 0 0
+Sh "19" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -5.23 -6.5
 $EndPAD
 $PAD
-Sh "20" R 0.7 0.92 0 0 0
+Sh "18" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.96 -6.5
 $EndPAD
 $PAD
-Sh "19" R 0.7 0.92 0 0 0
+Sh "17" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2.69 -6.5
 $EndPAD
 $PAD
-Sh "18" R 0.7 0.92 0 0 0
+Sh "16" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1.42 -6.5
 $EndPAD
 $PAD
-Sh "17" R 0.7 0.92 0 0 0
+Sh "22" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.15 -6.5
 $EndPAD
 $PAD
-Sh "16" R 0.7 0.92 0 0 0
+Sh "15" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.12 -6.5
 $EndPAD
 $PAD
-Sh "15" R 0.7 0.92 0 0 0
+Sh "14" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.39 -6.5
 $EndPAD
 $PAD
-Sh "14" R 0.7 0.92 0 0 0
+Sh "13" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.66 -6.5
 $EndPAD
 $PAD
-Sh "13" R 0.7 0.92 0 0 0
+Sh "12" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 4.93 -6.5
 $EndPAD
 $PAD
-Sh "12" R 0.7 0.92 0 0 0
+Sh "11" R 0.7 0.92 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
