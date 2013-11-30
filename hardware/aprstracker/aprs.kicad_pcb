@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (15 F.Cu signal hide)
+    (15 F.Cu signal)
     (0 B.Cu signal)
     (16 B.Adhes user)
     (17 F.Adhes user)
@@ -5542,11 +5542,11 @@
   (segment (start 119.8118 107.0102) (end 119.6316 106.83) (width 0.254) (layer F.Cu) (net 37) (tstamp 5297CA1E))
   (segment (start 119.8118 108.077) (end 119.8118 107.0102) (width 0.254) (layer F.Cu) (net 37) (tstamp 5297CA1D))
   (segment (start 119.9388 108.204) (end 119.8118 108.077) (width 0.254) (layer F.Cu) (net 37) (tstamp 5297CA1C))
-  (segment (start 125.095 108.204) (end 122.5042 108.204) (width 0.254) (layer F.Cu) (net 37) (tstamp 5291FABC))
+  (segment (start 125.476 108.204) (end 122.5042 108.204) (width 0.254) (layer F.Cu) (net 37) (tstamp 5291FABC))
   (segment (start 122.5042 108.204) (end 122.428 108.204) (width 0.254) (layer F.Cu) (net 37) (tstamp 5297CA1A))
-  (segment (start 125.349 107.95) (end 125.095 108.204) (width 0.254) (layer F.Cu) (net 37) (tstamp 5291FAB5))
+  (segment (start 125.73 107.95) (end 125.476 108.204) (width 0.254) (layer F.Cu) (net 37) (tstamp 5291FAB5))
   (segment (start 122.428 109.0295) (end 122.428 108.204) (width 0.254) (layer F.Cu) (net 37))
-  (segment (start 127.127 107.95) (end 125.349 107.95) (width 0.254) (layer F.Cu) (net 37))
+  (segment (start 127.127 107.95) (end 125.73 107.95) (width 0.254) (layer F.Cu) (net 37))
   (segment (start 135.509 85.979) (end 138.43 85.979) (width 1.435) (layer F.Cu) (net 39))
   (segment (start 138.43 85.979) (end 138.43 88.646) (width 0.5) (layer F.Cu) (net 39))
   (segment (start 138.43 88.646) (end 138.557 88.773) (width 0.5) (layer F.Cu) (net 39) (tstamp 5291F829))
