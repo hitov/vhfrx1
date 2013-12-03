@@ -5,4 +5,12 @@
 *.map
 *.o
 *.srec
+*.log
+*.plt
+*.raw
+*.fft
+*.bak
+*.kicad_pcb-bak
+.cproject
+.project
 
