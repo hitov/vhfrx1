@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Jan 2014 11:49:45 PM EET
+EESchema Schematic File Version 2  date Sun 05 Jan 2014 01:50:47 AM EET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1862,7 +1862,7 @@ L R R18
 U 1 1 51A3D64B
 P 8075 8290
 F 0 "R18" V 8250 8290 40  0000 C CNN
-F 1 "27k" V 8200 8290 40  0000 C CNN
+F 1 "47k" V 8200 8290 40  0000 C CNN
 F 2 "SM0805" V 8005 8290 30  0001 C CNN
 F 3 "~" H 8075 8290 30  0000 C CNN
 	1    8075 8290
